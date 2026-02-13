@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | แนะนำตัวเอง</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MyProfile.</div>
+        <ul class="nav-links">
+            <li><a href="#home">ข้อมูลส่วนตัว</a></li>
+            <li><a href="#contact">ช่องทางติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section-home">
+        <div class="profile-container">
+            <div class="profile-img">
+                <img src="c:\Users\Admin\Pictures\Camera Roll\me.jpg" alt="รูปโปรไฟล์">
+            </div>
+            <div class="profile-text">
+                <h1>สวัสดีครับ, ผมชื่อ <span class="highlight">อัมรินทร์ ดีมูล</span></h1>
+                <h2>Web Developer & Programmer</h2>
+                <p>
+                    ยินดีต้อนรับสู่เว็บไซต์ของผม! ผมมีความสนใจด้านการเขียนโปรแกรม 
+                    พัฒนาเว็บไซต์ และเทคโนโลยี AI (InsightFace/Python) 
+                    ชอบเรียนรู้สิ่งใหม่ๆ และสร้างสรรค์ผลงานเพื่อแก้ปัญหาต่างๆ
+                </p>
+                <a href="#contact" class="btn">ติดต่องาน</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <h2 class="section-title">ช่องทางติดต่อ</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>0XX-XXX-XXXX</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>yourname@email.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <p>github.com/yourname</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>กรุงเทพมหานคร, ประเทศไทย</p>
+                </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="ชื่อของคุณ" required>
+                <input type="email" id="email" placeholder="อีเมลของคุณ" required>
+                <textarea id="message" rows="5" placeholder="ข้อความที่ต้องการส่งถึงผม" required></textarea>
+                <button type="submit" class="btn-submit">ส่งข้อความ</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Created by [ชื่อของคุณ]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
